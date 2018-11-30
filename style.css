@@ -16,7 +16,7 @@ body{
     padding: 10px 20px;
     margin: 10px;
     transition: 1000ms;
-    position: relative;
+    position: relative;  /* need this position = relative for positioning ::before (pseudo element) */
     overflow: hidden;
 }
 
