@@ -68,3 +68,11 @@ body{
 .btn3:hover::before , .btn4:hover::before{
     height: 0%;
 }
+
+@media(max-width: 515px)
+{
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
